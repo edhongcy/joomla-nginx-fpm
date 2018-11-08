@@ -2,8 +2,8 @@ FROM richarvey/nginx-php-fpm:php7
 MAINTAINER Terry Chen <seterrychen@gmail.com>
 
 ENV \
-  JOOMLA_VERSION=3.8.1 \
-  JOOMLA_SHA1=b31e97ef16e6030156600b4b9e8073eaf3b28928 \
+  JOOMLA_VERSION=3.8.13 \
+  JOOMLA_SHA1=c47f0e0e32a8089257a6e49bb5d9d05d3ebe7d45 \
   JOOMLA_INSTALLATION_DISABLE_LOCALHOST_CHECK=1 \
   WEBROOT=/var/joomla \
   DB_NAME=joomla \
